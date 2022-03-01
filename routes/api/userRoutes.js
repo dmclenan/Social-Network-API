@@ -8,7 +8,7 @@ const {
   addFriend,
   removeFriend,
 
-} = require('../../controllers/userController');
+} = require('../../controllers/usersController.js');
 
 // /api/users
 router.route('/').get(getUsers).post(createUser);
